@@ -18,5 +18,12 @@ router.get('/about',function(req,res,next){
   res.render('about',{"msg":"Hola Mundo!!!"});
 }
 );
+
+
+router.get('/Contactenos',function(req,res,next){
+  res.render('Contactenos',{"image":"imagen.jpg"});
+}
+);
+
 >>>>>>> Stashed changes
 module.exports = router;
